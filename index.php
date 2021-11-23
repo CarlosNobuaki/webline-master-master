@@ -73,10 +73,12 @@ include_once("conexao.php");
                     <div>
                 <?php 
 
-                  $servername = "localhost";
-                  $username = "root";
-                  $password = "";
-                  $dbname = "concessionaria";
+                  $servername = "us-cdbr-east-04.cleardb.com";
+                  $username = "b244f66c3942ac";
+                  $password = "1ccc39e8";
+                  $dbname = "heroku_7107136f272449a";                        
+                  
+
                 
                   $con = new mysqli($servername, $username, $password, $dbname);
                  
