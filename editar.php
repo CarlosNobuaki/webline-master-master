@@ -2,10 +2,10 @@
 session_start();
 ?>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "concessionaria";
+$servername = "us-cdbr-east-04.cleardb.com";
+$username = "b244f66c3942ac";
+$password = "1ccc39e8";
+$dbname = "heroku_7107136f272449a";  
 
 $connect = new mysqli($servername, $username, $password, $dbname);
 
@@ -93,12 +93,12 @@ if(isset ($_GET['id'])){
                 </label>
                 <select name="montadora" class="form-control">
                     <div>
-                        <?php 
-
-                  $servername = "localhost";
-                  $username = "root";
-                  $password = "";
-                  $dbname = "concessionaria";
+                        <?php                   
+                        
+                  $servername = "us-cdbr-east-04.cleardb.com";
+                  $username = "b244f66c3942ac";
+                  $password = "1ccc39e8";
+                  $dbname = "heroku_7107136f272449a";  
                 
                   $con = new mysqli($servername, $username, $password, $dbname);
                  
